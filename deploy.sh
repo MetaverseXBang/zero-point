@@ -3,6 +3,8 @@
 # abort on errors
 set -e
 
+git subtree pull --prefix dist origin gh-pages
+
 # build
 npm run build
 
