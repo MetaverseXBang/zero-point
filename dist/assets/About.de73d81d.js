@@ -1,0 +1,1 @@
+import{_ as o}from"./index.e83780be.js";import{o as r,c as t,F as a,a as e}from"./vendor.189db20a.js";const n={},s=e("div",null,"It's a site to the crypto world.",-1),d=e("div",null,"Enjoy.",-1);var l=o(n,[["render",function(o,e){return r(),t(a,null,[s,d],64)}]]);export{l as default};
