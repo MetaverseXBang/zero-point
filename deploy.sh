@@ -3,7 +3,7 @@
 # abort on errors
 set -e
 
-git subtree pull --prefix dist origin gh-pages
+git subtree pull --prefix dist origin gh-pages --allow-unrelated-histories
 
 # build
 npm run build
