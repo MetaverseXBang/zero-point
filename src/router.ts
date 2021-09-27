@@ -1,14 +1,11 @@
 import * as VueRouter from 'vue-router'
 
-import Home from './pages/Home.vue'
-import About from './pages/About.vue'
-
 // 2. 定义一些路由
 // 每个路由都需要映射到一个组件。
 // 我们后面再讨论嵌套路由。
 const routes = [
-  { path: '/', component: Home },
-  { path: '/about', component: About },
+  { path: '/', component: () => import('./pages/Home.vue') },
+  { path: '/about', component: () => import('./pages/About.vue') },
 ]
 
 // 3. 创建路由实例并传递 `routes` 配置
