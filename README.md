@@ -1,2 +1,0 @@
-# zero-point
-The Preacher
