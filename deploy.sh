@@ -3,8 +3,6 @@
 # abort on errors
 set -e
 
-git subtree pull --prefix dist origin gh-pages --squash
-
 # build
 npm run build
 
