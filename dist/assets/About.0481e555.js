@@ -1,0 +1,1 @@
+import{_ as o}from"./index.d162a001.js";import{o as r,c as t,F as n,b as s}from"./vendor.39fb069f.js";const a={},e=s("div",null,"It's a site to the crypto world.",-1),d=s("div",null,"Enjoy.",-1);var l=o(a,[["render",function(o,s){return r(),t(n,null,[e,d],64)}]]);export{l as default};
