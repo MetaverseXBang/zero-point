@@ -5,10 +5,20 @@
         <div class="logo-area"></div>
       </div>
     </div>
-    <div class="m1">
+    <div class="m">
       <div class="hcw">
         <div>Hello</div>
         <div>Crypto World</div>
+      </div>
+    </div>
+    <div class="m tr">
+      <div class="hcw">
+        <div>Guide</div>
+      </div>
+    </div>
+    <div class="m">
+      <div class="hcw">
+        <div>Airdrop</div>
       </div>
     </div>
   </div>
@@ -36,7 +46,7 @@
     height: 200px;
     background-color: #fff;
   }
-  .m1 {
+  .m {
     height: 1200px;
   }
   .hcw {
@@ -44,6 +54,10 @@
     font-weight: 500;
     padding: 0 10%;
     padding-top: 100px;
+  }
+
+  .tr {
+    text-align: right;
   }
 }
 </style>
